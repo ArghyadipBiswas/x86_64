@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: libcrypto++
+Description: General purpose cryptographic shared library
+URL: http://www.cryptopp.com
+Version: 5.6.4
+Requires:
+Libs: -lcrypto++
+Cflags:
